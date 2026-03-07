@@ -1,0 +1,17 @@
+[info]
+title=clang-format Formatter
+desc=Format code using clang-format (C, C++, C#, Java, Objective-C, JavaScript, TypeScript, Protobuf)
+type=cudatext-plugin
+subdir=cuda_fmt_clang
+homepage=https://github.com/CudaText-addons/cuda_fmt_clang
+author=Bruno Eduardo
+api=1.0.472
+
+[fmt1]
+caption=clang-format
+method=do_format
+lexers=C,C++,C#,Java,Objective-C,Objective-C++,JavaScript,TypeScript,Protocol Buffers
+force_all=1
+config_global=config
+config_local=create_clang_format
+help=help
