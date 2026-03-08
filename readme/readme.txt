@@ -1,5 +1,5 @@
 Formatter for CudaFormatter plugin.
-It adds support for 9 languages: C, C++, C#, Java, Objective-C, JavaScript, TypeScript, and Protocol Buffers.
+It adds support for 15 languages: C, C++, C#, CUDA, Java, Objective-C, JavaScript (4 variants), TypeScript, GLSL, Protocol Buffers, and Verilog.
 It uses "clang-format".
 
 'clang-format' must be in your system PATH, LLVM installation, Visual Studio, or in the tools/Clang folder (portable use) inside CudaText directory.
@@ -21,9 +21,10 @@ Access local configuration via menu: Plugins > CudaFormatter > Configure formatt
 Access help via menu: Plugins > CudaFormatter > Formatter help...
 Hotkey (optional): Install 'Configure_Hotkeys' plugin, then search for "CudaFormatter: Formatter (menu)"
 
-Supported languages (9):
-C, C++, C#, Java, Objective-C, Objective-C++,
-JavaScript, TypeScript, Protocol Buffers (.proto)
+Supported languages (15):
+C, C++, C#, CUDA C++, Java, Objective-C, Objective-C++,
+JavaScript, JavaScript (ES6), JavaScript (ES6)L, JavaScript Babel,
+TypeScript, GLSL, Protocol Buffers (.proto), Verilog HDL
 
 Predefined styles:
 LLVM, Google, Chromium, Mozilla, WebKit, Microsoft, GNU

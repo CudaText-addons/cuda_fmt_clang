@@ -54,12 +54,18 @@ SUPPORTED_LEXERS = {
     'C': True,
     'C++': True,
     'C#': True,
+    'CUDA C++': True,
     'Java': True,
     'Objective-C': True,
     'Objective-C++': True,
     'JavaScript': True,
+    'JavaScript (ES6)': True,
+    'JavaScript (ES6)L': True,
+    'JavaScript Babel': True,
     'TypeScript': True,
-    'Protocol Buffers': True,  # .proto files
+    'GLSL': True,
+    'Protocol Buffers': True,
+    'Verilog HDL': True,
 }
 
 # Default configuration structure
@@ -121,7 +127,6 @@ def load_config():
             user_config = json.load(f)
 
         # Deep merge user config with defaults
-        import copy
         merged_config = copy.deepcopy(DEFAULT_CONFIG)
         merged_config.update(user_config)
 

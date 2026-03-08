@@ -1,6 +1,6 @@
 [info]
 title=clang-format Formatter
-desc=Format code using clang-format (C, C++, C#, Java, Objective-C, JavaScript, TypeScript, Protobuf)
+desc=Format code using clang-format (C/C++, C#, CUDA, Java, Objective-C, JavaScript, TypeScript, GLSL, Protobuf, Verilog)
 type=cudatext-plugin
 subdir=cuda_fmt_clang
 homepage=https://github.com/CudaText-addons/cuda_fmt_clang
@@ -10,7 +10,7 @@ api=1.0.472
 [fmt1]
 caption=clang-format
 method=do_format
-lexers=C,C++,C#,Java,Objective-C,Objective-C++,JavaScript,TypeScript,Protocol Buffers
+lexers=C,C++,C#,CUDA C++,Java,Objective-C,Objective-C++,JavaScript,JavaScript (ES6),JavaScript (ES6)L,JavaScript Babel,TypeScript,GLSL,Protocol Buffers,Verilog HDL
 force_all=1
 config_global=config
 config_local=create_clang_format

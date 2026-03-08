@@ -5,8 +5,8 @@
 clang-format is a **powerful code formatter** from the LLVM project that enforces consistent coding style. It's the industry-standard formatter for C, C++, and related languages, used by **major projects** including:
 
 - ✅ **C/C++ projects**: LLVM, Chromium, Mozilla, WebKit, Linux Kernel components
-- ✅ **Languages**: C, C++, C#, Java, Objective-C, JavaScript, TypeScript, Protobuf
-- ✅ **Companies**: Google, Microsoft, Mozilla, Apple, Meta
+- ✅ **Languages**: C, C++, C#, CUDA, Java, Objective-C, JavaScript, TypeScript, GLSL, Protobuf, Verilog
+- ✅ **Companies**: Google, Microsoft, Mozilla, Apple, Meta, NVIDIA
 
 Unlike generic formatters, clang-format **understands code semantics** and produces highly readable, consistent output.
 
@@ -54,7 +54,7 @@ Unlike generic formatters, clang-format **understands code semantics** and produ
 ### Advanced Features
 - 🎨 **Line state preservation** - Only modified lines marked as changed (thanks to cuda_fmt difflib support)
 - ↩️ **Single undo operation** - Format and undo with Ctrl+Z
-- 🎯 **9 languages** - C, C++, C#, Java, Objective-C/C++, JavaScript, TypeScript, Protobuf
+- 🎯 **15 languages** - C, C++, C#, CUDA, Java, Objective-C/C++, JavaScript (4 variants), TypeScript, GLSL, Protobuf, Verilog
 - 🔧 **Flexible configuration** - Use project `.clang-format` or predefined styles
 - 📝 **Debug logging** - Shows which executable and command used
 - ⚡ **Fast formatting** - Native compiled binary, no runtime dependencies
