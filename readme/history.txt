@@ -1,3 +1,6 @@
+2026.11.21
+- fix: avoid deprecated API: get_filename
+
 2026.03.08
 + add: support for legacy JavaScript lexers (JavaScript (ES6), JavaScript (ES6)L, JavaScript Babel)
 + add: support for CUDA C++ lexer

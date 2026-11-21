@@ -235,7 +235,7 @@ def do_format(text):
     cmd = [clang_format_cmd]
     
     # Add assume-filename to help clang-format find .clang-format in the correct directory
-    current_file = ct.ed.get_filename()
+    current_file = ct.ed.get_prop(ct.PROP_FN, '')
     if current_file:
         cmd.extend(['--assume-filename', current_file])
 
@@ -322,7 +322,7 @@ class Command:
         """Create .clang-format file in the directory of the current file."""
 
         # Get current file path
-        current_file = ct.ed.get_filename()
+        current_file = ct.ed.get_prop(ct.PROP_FN, '')
 
         # Guard clause: unsaved file (no directory to create .clang-format in)
         if not current_file:
