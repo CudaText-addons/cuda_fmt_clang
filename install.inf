@@ -5,7 +5,7 @@ type=cudatext-plugin
 subdir=cuda_fmt_clang
 homepage=https://github.com/CudaText-addons/cuda_fmt_clang
 author=Bruno Eduardo
-api=1.0.472
+api=1.0.483
 
 [fmt1]
 caption=clang-format
